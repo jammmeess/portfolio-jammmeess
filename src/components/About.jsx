@@ -12,37 +12,60 @@ const About = () => {
               alt="A photo of me"
               className="img-fluid"
               id="profile"
+              style={{
+                boxShadow: "0px 0px 5px black",
+                borderRadius: "0px 70px 0px 70px",
+              }}
             />
           </div>
           <div className="col-lg-7 mt-5 pt-5 text-dark">
-            <h3>About me</h3>
+            <h3 className="mb-5">
+              <b>About me:</b>
+            </h3>
             <p>
               My name is <b>Kristoffer James B. Bomediano.</b>
             </p>
             <p>
               As a web developer, I thrive on navigating through diverse
-              technologies with ease.
-            </p>
-            <p>
-              I am able to self-manage on independent projects and work
-              effectively in a team.
+              technologies with ease. I am able to self-manage on independent
+              projects and work effectively in a team.
             </p>
             <p>
               My dedication to continuous learning allows me to stay current
               with industry trends and implement innovative solutions in my
               work.
             </p>
-            <a href="/contact">
-              <button className="btn btn-outline-dark mt-5">Contact Me</button>
-            </a>
-            <a href="/projects">
-              <button className="btn btn-outline-dark ms-3 mt-5">
-                Check out my projects
+
+            <div className="col-lg mt-5">
+              <h3>
+                <b>Skills:</b>
+              </h3>
+              <button className="skills btn btn-outline-dark mt-4">HTML</button>
+              <button className="skills btn btn-outline-dark ms-2 mt-4">
+                CSS
               </button>
-            </a>
-          </div>
-          <div className="col-lg-7">
-            <h3>Skills</h3>
+              <button className="skills btn btn-outline-dark ms-2 mt-4">
+                JavaScript
+              </button>
+              <button className="skills btn btn-outline-dark ms-2 mt-4">
+                Bootstrap 5
+              </button>
+              <button className="skills btn btn-outline-dark ms-2 mt-4">
+                ReactJs
+              </button>
+              <button className="skills btn btn-outline-dark ms-2 mt-4">
+                PHP
+              </button>
+              <button className="skills btn btn-outline-dark ms-2 mt-4">
+                Laravel
+              </button>
+              <button className="skills btn btn-outline-dark mt-4">
+                WordPress
+              </button>
+              <button className="skills btn btn-outline-dark ms-2 mt-4">
+                mySQL
+              </button>
+            </div>
           </div>
         </div>
       </div>
