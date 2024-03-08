@@ -1,8 +1,22 @@
 import React from "react";
 
 const Navbar = () => {
+  document.onreadystatechange = function () {
+    let lastScrollPosition = 0;
+    const navbar = document.querySelector(".navbar");
+    window.addEventListener("scroll", function (e) {
+      lastScrollPosition = window.scrollY;
+
+      if (lastScrollPosition > 100) navbar.classList.add("navbar-dark");
+      else navbar.classList.remove("navbar-dark");
+    });
+  };
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-custom text-center text-dark fixed-top">
+    <nav
+      className="navbar fixed-top navbar-expand-lg navbar-dark text-white"
+      id="nav"
+    >
       <div class="container-fluid">
         <a class="navbar-brand mx-4 text-light" href="/">
           Kristoffer James
