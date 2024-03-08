@@ -14,19 +14,14 @@ const About = () => {
               id="profile"
             />
           </div>
-          <div className="col-lg-7 mt-5 text-dark">
-            <h1>About me</h1>
+          <div className="col-lg-7 mt-5 pt-5 text-dark">
+            <h3>About me</h3>
             <p>
-              My name is <b>Kristoffer James B. Bomediano.</b>{" "}
+              My name is <b>Kristoffer James B. Bomediano.</b>
             </p>
             <p>
-              {" "}
-              I am a competent web developer proficient in a variety of
-              technologies including{" "}
-              <b>
-                HTML, CSS, Bootstrap 5, JavaScript, Laravel, WordPress, and
-                MySQL.{" "}
-              </b>{" "}
+              As a web developer, I thrive on navigating through diverse
+              technologies with ease.
             </p>
             <p>
               I am able to self-manage on independent projects and work
@@ -35,7 +30,7 @@ const About = () => {
             <p>
               My dedication to continuous learning allows me to stay current
               with industry trends and implement innovative solutions in my
-              work.{" "}
+              work.
             </p>
             <a href="/contact">
               <button className="btn btn-outline-dark mt-5">Contact Me</button>
@@ -45,6 +40,9 @@ const About = () => {
                 Check out my projects
               </button>
             </a>
+          </div>
+          <div className="col-lg-7">
+            <h3>Skills</h3>
           </div>
         </div>
       </div>
