@@ -4,9 +4,9 @@ import ProfilePicture from "../img/profile_picture.jpeg";
 const About = () => {
   return (
     <section className="about-section" id="about">
-      <div className="container">
-        <div className="row mt-3 ">
-          <div className="col-lg-4 mt-3 me-5 d-flex justify-content-center">
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-lg-4 mt-5 ms-3 me-5 d-flex justify-content-start">
             <img
               src={ProfilePicture}
               alt="A photo of me"
@@ -18,12 +18,14 @@ const About = () => {
               }}
             />
           </div>
-          <div className="col-lg-7 mt-5 pt-5 text-dark">
-            <h3 className="mb-5">
-              <b>About me:</b>
-            </h3>
-            <p>
-              My name is <b>Kristoffer James B. Bomediano.</b>
+          <div className="col-lg-7 ms-4 pt-5 text-dark profile-section">
+            <span className="display-5">
+              <p>
+                <strong>My name is</strong>
+              </p>
+            </span>
+            <p className="display-4">
+              <b>Kristoffer James B. Bomediano.</b>
             </p>
             <p>
               As a web developer, I thrive on navigating through diverse
@@ -36,7 +38,7 @@ const About = () => {
               work.
             </p>
 
-            <div className="col-lg mt-5">
+            <div className="col-lg-12 mt-5">
               <h3>
                 <b>Skills:</b>
               </h3>
