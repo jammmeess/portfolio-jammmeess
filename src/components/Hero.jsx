@@ -10,8 +10,9 @@ const Hero = () => {
       </div>
 
       <div className="hero-text text-start">
-        <h1 className="fw-bolder display-1 hero-title">
-          Welcome to my Portfolio
+        <h1 className="fw-bolder display-1 hero-title">Hi there, I am a</h1>
+        <h1 className="fw-bolder display-1 hero-title mb-5 higlight">
+          Web Developer
         </h1>
         <button type="button" className="btn btn-outline-light">
           Download my Resume
