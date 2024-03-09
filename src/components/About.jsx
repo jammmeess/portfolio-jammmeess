@@ -18,8 +18,8 @@ const About = () => {
               }}
             />
           </div>
-          <div className="col-lg-7 ms-4 pt-5 text-dark profile-section">
-            <span className="display-5">
+          <div className="col-lg-7 ms-4 text-dark profile-section">
+            <span className="display-5 ">
               <p>
                 <strong>My name is</strong>
               </p>
