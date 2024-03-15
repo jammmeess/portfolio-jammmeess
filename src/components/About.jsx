@@ -148,13 +148,13 @@ const About = () => {
               <button className="skills btn btn-outline-dark ms-2 mt-4">
                 WordPress
               </button>
-              <button className="skills btn btn-outline-dark ms-2 me-2 mt-4">
+              <button className="skills btn btn-outline-dark ms-2 mt-4">
                 Git
               </button>
               <button className="skills btn btn-outline-dark mt-4">
                 Figma
               </button>
-              <button className="skills btn btn-outline-dark ms-2 mt-4">
+              <button className="skills btn btn-outline-dark mt-4">
                 Photoshop
               </button>
             </div>
