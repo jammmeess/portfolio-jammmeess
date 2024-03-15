@@ -2,10 +2,16 @@ body,
 html {
   font-family: "arial";
   font-size: 105%;
-  /* width: 100%; */
+  width: auto;
   height: auto;
   color: #ffffff;
   background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
   overflow-x: hidden;
 }
 
@@ -18,24 +24,15 @@ html {
 
 /* Navbar */
 .navbar {
-  padding: 10px 0px 10px 0px;
+  padding: 0px 0px 0px 0px;
   justify-content: center;
   text-align: center;
   z-index: 9999;
   font-size: 15px;
   top: 0;
-  transition: background-color 0.3s ease;
-  color: black;
-  z-index: 9999 !important;
-  background-color: rgba(0, 0, 0, 0) !important;
-  transition-property: background-color, color;
-  transition-duration: 0.5s;
-  transition: ease-in-out;
-}
-
-.navbar.transparent {
-  background-color: rgb(22, 22, 22);
-  z-index: 9999;
+  background-color: #121212 !important;
+  overflow-x: hidden;
+  white-space: nowrap;
 }
 
 .navbar a {
@@ -62,7 +59,6 @@ html {
 
 .navbar.scrolled {
   background-color: rgb(22, 22, 22);
-  z-index: 9999;
 }
 
 .navbar-dark {
@@ -92,7 +88,7 @@ html {
 
 .overlay-mobile {
   background-color: #121212;
-  height: 70vh;
+  height: 100vh;
   width: 95%;
   z-index: 9998;
   position: absolute;
