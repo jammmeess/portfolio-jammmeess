@@ -9,8 +9,8 @@ const Hero = () => {
       <div className="container">
         <div className="d-none d-sm-block">
           <div className="overlay"></div>
-          <div className="hero-image col-lg-12 d-flex justify-content-end">
-            <video src={HeroBanner} autoPlay loop muted />
+          <div className="hero-image d-none d-sm-block col-lg-12 d-flex justify-content-end">
+            <video src={HeroBanner} autoPlay loop muted preload="none" />
           </div>
 
           <div className="hero-text text-start">
@@ -18,7 +18,7 @@ const Hero = () => {
             <h1 className="fw-bolder display-1 hero-title mb-5 higlight">
               Web Developer
             </h1>
-            <button type="button" className="btn btn-outline-light">
+            <button type="button" className="button">
               Download my Resume
             </button>
           </div>
@@ -30,18 +30,11 @@ const Hero = () => {
             <div className="col-5">
               <div className="overlay-mobile"></div>
               <div className="hero-mobilebanner">
-                <video
-                  src={HeroMobile}
-                  autoplay
-                  loop
-                  muted
-                  className="img-fluid"
-                />
+                {/* <video src={HeroMobile} loop muted className="img-fluid" /> */}
               </div>
               <div className="hero-mobiletext">
-                <h1 className="fw-bolder hero-mobile display-1">
-                  Hi there, I am a
-                </h1>
+                <h1 className="fw-bolder hero-mobile display-1">Hi there,</h1>
+                <h1 className="fw-bolder hero-mobile display-1">I Am a</h1>
                 <h1 className="fw-bolder hero-mobile display-1 higlight">
                   Web
                 </h1>
@@ -49,7 +42,7 @@ const Hero = () => {
                   Developer
                 </h1>
                 <a href={Resume} download>
-                  <button type="button" className="btn btn-outline-light">
+                  <button type="button" className="button">
                     Download my Resume
                   </button>
                 </a>
