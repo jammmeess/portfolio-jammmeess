@@ -21,11 +21,11 @@ const About = () => {
           <div className="col-lg-7 ms-4 text-dark profile-section">
             <span className="display-5 ">
               <p>
-                <strong>My name is</strong>
+                <strong><span id="myName">myName()</span>.is</strong>
               </p>
             </span>
             <p className="display-4">
-              <b>Kristoffer James B. Bomediano.</b>
+              <b><i>Kristoffer James B. Bomediano.</i></b>
             </p>
             <p>
               As a web developer, I thrive on navigating through diverse
@@ -65,7 +65,13 @@ const About = () => {
                 WordPress
               </button>
               <button className="skills btn btn-outline-dark ms-2 mt-4">
-                mySQL
+                Git
+              </button>
+              <button className="skills btn btn-outline-dark ms-2 mt-4">
+                Figma
+              </button>
+              <button className="skills btn btn-outline-dark ms-2 mt-4">
+                Photoshop
               </button>
             </div>
           </div>
