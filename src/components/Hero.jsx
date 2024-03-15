@@ -28,7 +28,7 @@ const Hero = () => {
         <div className="d-block d-sm-none">
           <div className="row">
             <div className="col-5">
-              <div className="overlay"></div>
+              <div className="overlay-mobile"></div>
               <div className="hero-mobilebanner">
                 <video
                   src={HeroMobile}
