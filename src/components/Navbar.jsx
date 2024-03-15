@@ -3,17 +3,6 @@ import navIcon from "../img/menu.png";
 import Logo from "../img/portfoliologo.png";
 
 const Navbar = () => {
-  document.onreadystatechange = function () {
-    let lastScrollPosition = 0;
-    const navbar = document.querySelector(".navbar");
-    window.addEventListener("scroll", function (e) {
-      lastScrollPosition = window.scrollY;
-
-      if (lastScrollPosition > 100) navbar.classList.add("navbar-dark");
-      else navbar.classList.remove("navbar-dark");
-    });
-  };
-
   return (
     <nav
       className="navbar fixed-top navbar-expand-lg navbar-dark text-white"
@@ -36,22 +25,22 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link text-light  ms-2" href="#about">
+              <a className="nav-link text-light" href="#about">
                 About Me
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light  ms-2" href="#education">
+              <a className="nav-link text-light" href="#education">
                 My Education
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light  ms-2" href="#experience">
+              <a className="nav-link text-light" href="#experience">
                 My Experience
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light ms-2" href="#projects">
+              <a className="nav-link text-light" href="#projects">
                 My Projects
               </a>
             </li>
