@@ -18,7 +18,7 @@ const About = () => {
               }}
             />
           </div>
-          <div className="col-lg-7 ms-4 mt-3 text-dark profile-section">
+          <div className="col-lg-7 ms-4 pt-5 text-dark profile-section">
             <span className="display-5 ">
               <p>
                 <strong>
@@ -46,7 +46,7 @@ const About = () => {
               <h3>
                 <b>Skills:</b>
               </h3>
-              <button className="skills btn btn-outline-dark mt-4">HTML</button>
+              <button className="skills btn btn-outline-dark ms-2 mt-4">HTML</button>
               <button className="skills btn btn-outline-dark ms-2 mt-4">
                 CSS
               </button>
@@ -65,7 +65,7 @@ const About = () => {
               <button className="skills btn btn-outline-dark ms-2 mt-4">
                 Laravel
               </button>
-              <button className="skills btn btn-outline-dark mt-4">
+              <button className="skills btn btn-outline-dark ms-2 mt-4">
                 WordPress
               </button>
               <button className="skills btn btn-outline-dark ms-2 mt-4">
@@ -151,7 +151,7 @@ const About = () => {
               <button className="skills btn btn-outline-dark ms-2 mt-4">
                 Git
               </button>
-              <button className="skills btn btn-outline-dark mt-4">
+              <button className="skills btn btn-outline-dark ms-2 mt-4">
                 Figma
               </button>
               <button className="skills btn btn-outline-dark mt-4">
