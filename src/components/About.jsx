@@ -18,7 +18,7 @@ const About = () => {
               }}
             />
           </div>
-          <div className="col-lg-7 ms-4 text-dark profile-section">
+          <div className="col-lg-7 ms-4 mt-3 text-dark profile-section">
             <span className="display-5 ">
               <p>
                 <strong>
@@ -86,7 +86,7 @@ const About = () => {
 
       <div className="container-fluid d-block d-sm-none about-mobile">
         <div className="row ">
-          <div className="col-12 col-sm-12 mt-5 ms-3 me-5 d-flex justify-content-start">
+          <div className="col-12 mt-5 ps-3 pe-5 d-flex justify-content-start">
             <img
               src={ProfilePicture}
               alt="A photo of me"
@@ -98,7 +98,7 @@ const About = () => {
               }}
             />
           </div>
-          <div className="col-12 col-sm-12 ms-4 text-dark profile-section-mobile">
+          <div className="col-12 col-sm-12 ps-4 text-dark profile-section-mobile">
             <span className="display-5 ">
               <p>
                 <strong>
