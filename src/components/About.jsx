@@ -18,17 +18,17 @@ const About = () => {
               }}
             />
           </div>
-          <div className="col-lg-7 ms-4 pt-5 text-dark profile-section">
+          <div className="col-lg-7 ms-4 pt-5 mt-5 text-light ">
             <span className="display-5 ">
               <p>
                 <strong>
-                  <span id="myName">myName()</span>.is
+                  <span className="text-warning">myName( )</span>.is
                 </strong>
               </p>
             </span>
             <p className="display-4">
               <b>
-                <i>Kristoffer James B. Bomediano.</i>
+                <i>Kristoffer James Bomediano</i>
               </b>
             </p>
             <p>
@@ -36,7 +36,7 @@ const About = () => {
               technologies with ease. I am able to self-manage on independent
               projects and work effectively in a team.
             </p>
-            <p>
+            <p className="text-dark">
               My dedication to continuous learning allows me to stay current
               with industry trends and implement innovative solutions in my
               work.
@@ -44,9 +44,11 @@ const About = () => {
 
             <div className="col-lg-12 mt-5">
               <h3>
-                <b>Skills:</b>
+                <b className="text-dark">Skills:</b>
               </h3>
-              <button className="skills btn btn-outline-dark ms-2 mt-4">HTML</button>
+              <button className="skills btn btn-outline-dark ms-2 mt-4">
+                HTML
+              </button>
               <button className="skills btn btn-outline-dark ms-2 mt-4">
                 CSS
               </button>
@@ -102,7 +104,7 @@ const About = () => {
             <span className="display-5 ">
               <p>
                 <strong>
-                  <span id="myName">myName()</span>.is
+                  <span id="myName text-primary">myName()</span>.is
                 </strong>
               </p>
             </span>
