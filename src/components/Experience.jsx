@@ -52,7 +52,9 @@ const Experience = () => {
       <div class="container-fluid d-block d-sm-none text-dark experiencemobile-section">
         <div class="col-12 col-sm-12 ps-2 experiencetitlemobile-section">
           <h3 class="text-light display-5 ps-3">
-            work.<span className="text-warning">experience( )</span>
+            <strong>
+              work.<span className="text-warning">experience( )</span>
+            </strong>
           </h3>
           <p className="text-secondary ps-3 pb-4">
             my previous work experience_
