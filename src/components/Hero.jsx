@@ -34,7 +34,7 @@ const Hero = () => {
               </div>
               <div className="hero-mobiletext">
                 <h1 className="fw-bolder hero-mobile display-1">Hi there,</h1>
-                <h1 className="fw-bolder hero-mobile display-1">I Am a</h1>
+                <h1 className="fw-bolder hero-mobile display-1">I am a</h1>
                 <h1 className="fw-bolder hero-mobile display-1 higlight">
                   Web
                 </h1>
