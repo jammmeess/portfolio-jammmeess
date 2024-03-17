@@ -3,16 +3,16 @@ import React from "react";
 const Experience = () => {
   return (
     <section id="experience">
-      <div class="container-fluid d-none d-sm-block text-dark experience-section">
+      <div className="container-fluid d-none d-sm-block text-dark experience-section">
         <div className="row ">
-          <div class="col-lg-5 pb-5 experiencetitle-section">
-            <h3 class="ps-5 pt-5 mt-5 text-light display-5">
+          <div className="col-lg-5 pb-5 experiencetitle-section">
+            <h3 className="ps-5 pt-5 mt-5 text-light display-5">
               <strong>work.<span className="text-warning">experiences( )</span></strong>
             </h3>
             <p className="text-secondary ps-5">my previous work experiences_</p>
           </div>
           <div className="col-lg-6 work-section">
-            <div class="col-lg-12 pb-3 text-light">
+            <div className="col-lg-12 pb-3 text-light">
               <h4 className="pb-2">
                 <strong className="text-warning">
                   .decastro-consulting ({" "}
@@ -24,7 +24,7 @@ const Experience = () => {
                 <strong className="text-warning">)</strong>
               </span>
             </div>
-            <div class="col-lg-12 pb-3 text-light">
+            <div className="col-lg-12 pb-3 text-light">
               <h4 className="pb-2">
                 <strong className="text-warning">.costa-cruises ( </strong>
               </h4>
@@ -34,7 +34,7 @@ const Experience = () => {
                 <strong className="text-warning">)</strong>
               </span>
             </div>
-            <div class="col-lg-12 pb-3 text-light">
+            <div className="col-lg-12 pb-3 text-light">
               <h4 className="pb-2">
                 <strong className="text-warning">.ibizabeachclub-bgc ( </strong>
               </h4>
@@ -49,9 +49,9 @@ const Experience = () => {
       </div>
       {/* Phone Responsive */}
 
-      <div class="container-fluid d-block d-sm-none text-dark experiencemobile-section">
-        <div class="col-12 col-sm-12 ps-2 experiencetitlemobile-section">
-          <h3 class="text-light display-5 ps-3">
+      <div className="container-fluid d-block d-sm-none text-dark experiencemobile-section">
+        <div className="col-12 col-sm-12 ps-2 experiencetitlemobile-section">
+          <h3 className="text-light display-5 ps-3">
             <strong>
               work.<span className="text-warning">experience( )</span>
             </strong>
@@ -61,7 +61,7 @@ const Experience = () => {
           </p>
         </div>
         <div className="col-12 workmobile-section">
-          <div class="col-12 pb-4 text-light">
+          <div className="col-12 pb-4 text-light">
             <h4 className="pb-2">
               <strong className="text-warning">.decastro-consulting ( </strong>
             </h4>
@@ -71,7 +71,7 @@ const Experience = () => {
               <strong className="text-warning">)</strong>
             </span>
           </div>
-          <div class="col-12 pb-4 text-light">
+          <div className="col-12 pb-4 text-light">
             <h4 className="pb-2">
               <strong className="text-warning">.costa-cruises ( </strong>
             </h4>
@@ -81,7 +81,7 @@ const Experience = () => {
               <strong className="text-warning">)</strong>
             </span>
           </div>
-          <div class="col-12 text-light">
+          <div className="col-12 text-light">
             <h4 className="pb-2">
               <strong className="text-warning">.ibizabeachclub-bgc ( </strong>
             </h4>
