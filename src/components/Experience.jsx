@@ -7,7 +7,7 @@ const Experience = () => {
         <div className="row ">
           <div class="col-lg-5 pb-5 experiencetitle-section">
             <h3 class="ps-5 pt-5 mt-5 text-light display-5">
-              work.<span className="text-warning">experiences( )</span>
+              <strong>work.<span className="text-warning">experiences( )</span></strong>
             </h3>
             <p className="text-secondary ps-5">my previous work experiences_</p>
           </div>
