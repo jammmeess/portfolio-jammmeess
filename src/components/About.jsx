@@ -22,24 +22,25 @@ const About = () => {
             <span className="display-5 ">
               <p>
                 <strong>
-                  <span className="text-warning">myName( )</span>.is
+                  myName<span className="text-warning">.is( )</span>
                 </strong>
               </p>
             </span>
-            <p className="display-4">
+            <p className="display-6 pb-2">
               <b>
                 <i>Kristoffer James Bomediano</i>
               </b>
             </p>
             <p>
-              As a web developer, I thrive on navigating through diverse
-              technologies with ease. I am able to self-manage on independent
-              projects and work effectively in a team.
+              I am a web developer based on the Philippines. I really enjoy
+              working in web development, especially when it comes to exploring
+              different technologies. I find it easy to manage my own projects
+              and love collaborating with others as part of a team.
             </p>
             <p className="text-dark">
-              My dedication to continuous learning allows me to stay current
-              with industry trends and implement innovative solutions in my
-              work.
+              I'm always eager to learn and stay updated with the latest
+              industry trends. This helps me bring fresh and innovative
+              solutions to my work, keeping things exciting and effective.
             </p>
 
             <div className="col-lg-12 mt-5">
@@ -100,42 +101,45 @@ const About = () => {
               }}
             />
           </div>
-          <div className="col-12 col-sm-12 ps-4 text-dark profile-section-mobile">
+          <div className="col-12 col-sm-12 ps-4 profile-section-mobile">
             <span className="display-5 ">
               <p>
                 <strong>
-                  <span id="myName text-primary">myName()</span>.is
+                  myName<span className="text-warning">.is()</span>
                 </strong>
               </p>
             </span>
-            <p className="display-4">
+            <p className="display-6">
               <b>
-                <i>Kristoffer James B. Bomediano.</i>
+                <i>Kristoffer James Bomediano</i>
               </b>
             </p>
             <p>
-              As a web developer, I thrive on navigating through diverse
-              technologies with ease. I am able to self-manage on independent
-              projects and work effectively in a team.
+              I am a web developer based on the Philippines. I really enjoy
+              working in web development, especially when it comes to exploring
+              different technologies. I find it easy to manage my own projects
+              and love collaborating with others as part of a team.
             </p>
             <p>
-              My dedication to continuous learning allows me to stay current
-              with industry trends and implement innovative solutions in my
-              work.
+              I'm always eager to learn and stay updated with the latest
+              industry trends. This helps me bring fresh and innovative
+              solutions to my work, keeping things exciting and effective.
             </p>
 
             <div className="col-12 col-sm-12 mt-5">
               <h3>
                 <b>Skills:</b>
               </h3>
-              <button className="skills btn btn-outline-dark mt-4">HTML</button>
+              <button className="skills btn btn-outline-dark ms-2 mt-4">
+                HTML
+              </button>
               <button className="skills btn btn-outline-dark ms-2 mt-4">
                 CSS
               </button>
               <button className="skills btn btn-outline-dark ms-2 mt-4">
                 JavaScript
               </button>
-              <button className="skills btn btn-outline-dark mt-4">
+              <button className="skills btn btn-outline-dark ms-2 mt-4">
                 Bootstrap 5
               </button>
               <button className="skills btn btn-outline-dark ms-2 mt-4">
@@ -144,7 +148,7 @@ const About = () => {
               <button className="skills btn btn-outline-dark ms-2 mt-4">
                 PHP
               </button>
-              <button className="skills btn btn-outline-dark mt-4">
+              <button className="skills btn btn-outline-dark ms-2 mt-4">
                 Laravel
               </button>
               <button className="skills btn btn-outline-dark ms-2 mt-4">
@@ -156,7 +160,7 @@ const About = () => {
               <button className="skills btn btn-outline-dark ms-2 mt-4">
                 Figma
               </button>
-              <button className="skills btn btn-outline-dark mt-4">
+              <button className="skills btn btn-outline-dark ms-2 mt-4">
                 Photoshop
               </button>
             </div>
