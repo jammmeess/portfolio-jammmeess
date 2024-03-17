@@ -252,9 +252,9 @@ p {
 .experiencemobile-section {
   background-color: #121212;
   color: black;
-  height: 100vh;
+  height: 115vh;
   width: auto;
-  padding: 70px 0px 40px 40px;
+  padding: 60px 0px 40px 40px;
   margin-top: 400px;
 }
 
@@ -271,19 +271,32 @@ p {
   width: 50%;
   margin: 0px 0px 0px 0px;
   padding: 0px 80px 0px 80px;
-  border-left: solid lightgray;
+  border-left: solid rgb(129, 129, 129);
   padding: 30px 0px 0px 30px;
 }
 
 .workmobile-section {
   background-color: #121212;
+  height: auto;
   /* width: 50%; */
   margin: 0px 0px 0px 0px;
   padding: 0px 80px 0px 80px;
-  border-left: solid lightgray;
+  border-left: solid rgb(129, 129, 129);
   padding: 30px 0px 0px 30px;
 }
 
 #experience {
   color: blue;
+}
+
+.career-details {
+  color: rgb(24, 165, 212);
+}
+
+.career-string {
+  color: rgb(196, 109, 33);
+}
+
+.career-num {
+  color: rgb(144, 191, 74);
 }
