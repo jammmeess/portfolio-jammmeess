@@ -26,22 +26,22 @@ const Navbar = () => {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a className="nav-link text-light" href="#about">
-                About Me
+                .aboutMe( )
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link text-light" href="#experience">
-                My Experience
+                .myExperience( )
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link text-light" href="#projects">
-                My Projects
+                .myProjects( )
               </a>
             </li>
             <li className=" nav-item">
               <a className="nav-link text-light " href="#contact">
-                Contact Me
+                .contactMe( )
               </a>
             </li>
           </ul>
