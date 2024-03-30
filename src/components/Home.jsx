@@ -6,6 +6,7 @@ import Hero from "./Hero";
 import Experience from "./Experience";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import Projects from "./Project";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         <Hero />
         <About />
         <Experience />
+        <Projects />
         <Contact />
       </main>
       <Footer />
