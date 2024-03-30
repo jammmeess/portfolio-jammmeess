@@ -7,7 +7,9 @@ const Experience = () => {
         <div className="row ">
           <div className="col-lg-5 pb-5 experiencetitle-section">
             <h3 className="ps-5 pt-5 mt-5 text-light display-5">
-              <strong>work.<span className="text-warning">experiences( )</span></strong>
+              <strong>
+                work.<span className="text-warning">experiences( )</span>
+              </strong>
             </h3>
             <p className="text-secondary ps-5">my previous work experiences_</p>
           </div>
@@ -53,7 +55,7 @@ const Experience = () => {
         <div className="col-12 col-sm-12 ps-2 experiencetitlemobile-section">
           <h3 className="text-light display-5 ps-3">
             <strong>
-              work.<span className="text-warning">experience( )</span>
+              work.<span className="text-code">experience( )</span>
             </strong>
           </h3>
           <p className="text-secondary ps-3 pb-4">
