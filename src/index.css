@@ -6,13 +6,18 @@ html {
   height: auto;
   color: #ffffff;
   background-color: white;
+  overflow-x: hidden;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: auto;
   overflow-x: hidden;
+}
+
+.text-code {
+  color: #1b0f8a;
 }
 
 /* Button */
@@ -180,7 +185,7 @@ html {
 .about-section {
   background-color: #121212;
   color: black;
-  height: 52%;
+  height: 55%;
   width: 100%;
 }
 
@@ -239,7 +244,7 @@ p {
   color: black;
 }
 
-/* Education Section */
+/* Experience Section */
 
 .experience-section {
   background-color: #121212;
@@ -247,6 +252,7 @@ p {
   height: 100vh;
   width: 100%;
   padding: 100px 0px 0px 100px;
+  border-radius: 500px 0px 0px 0px;
 }
 
 .experiencemobile-section {
@@ -299,4 +305,13 @@ p {
 
 .career-num {
   color: rgb(144, 191, 74);
+}
+
+/* Projects Section */
+.project-section {
+  height: auto;
+  width: 100vw;
+  background-color: #121212;
+  color: black;
+  padding: 0px 0px 0px 0px;
 }
