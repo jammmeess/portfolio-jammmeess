@@ -22,7 +22,7 @@ const About = () => {
             <span className="display-5 ">
               <p>
                 <strong>
-                  myName<span className="text-warning">.is( )</span>
+                  myName<span className="text-code">.is( )</span>
                 </strong>
               </p>
             </span>
@@ -105,7 +105,7 @@ const About = () => {
             <span className="display-5 ">
               <p>
                 <strong>
-                  myName<span className="text-warning">.is()</span>
+                  myName<span className="text-code">.is()</span>
                 </strong>
               </p>
             </span>
