@@ -18,7 +18,7 @@ const About = () => {
               }}
             />
           </div>
-          <div className="col-lg-7 ms-4 pt-5 mt-3 text-light">
+          <div className="col-lg-7 ms-2 pt-5 mt-3 text-light">
             <span className="display-5 ">
               <p>
                 <strong>
@@ -32,7 +32,7 @@ const About = () => {
               </b>
             </p>
             <p>
-              I am a front-end web developer based in the Philippines. I really
+              I am a front-end web developer based on the Philippines. I really
               enjoy working in web development, especially when it comes to
               exploring different technologies. I find it easy to manage my own
               projects and love collaborating with others as part of a team.
@@ -43,7 +43,7 @@ const About = () => {
               solutions to my work, keeping things exciting and effective.
             </p>
 
-            <div className="col-lg-12 pt-5 mt-3">
+            <div className="col-lg-12 pt-5 mt-3 skills-section">
               <h3>
                 <b className="text-dark">Skills:</b>
               </h3>
