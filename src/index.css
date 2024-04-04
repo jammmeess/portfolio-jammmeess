@@ -105,7 +105,7 @@ html {
 }
 
 .logo {
-  width: 150px;
+  width: 50px;
 }
 
 /* Hero Banner */
@@ -194,6 +194,7 @@ html {
   color: black;
   height: 55%;
   width: 100%;
+  border-radius: 0px 0px 200px 0px;
 }
 
 .about-mobile {
@@ -216,7 +217,7 @@ p {
   height: 100vh;
   /* width: 50%; */
   margin: 0px 0px 0px 0px;
-  padding: 100px 80px 0px 80px;
+  padding: 100px 80px 0px 0px;
 }
 
 .profile-section-mobile {
@@ -243,7 +244,11 @@ p {
 }
 
 .skills {
-  margin-left: 0px;
+  margin-left: 10px;
+}
+
+.skills-section {
+  margin: 70px 0px 0px 0px !important;
 }
 
 .higlight {
