@@ -54,8 +54,8 @@ const Projects = () => {
     <section className="project-section" id="projects">
       <div className="container project py-5">
         <div className="row">
-          <div className="col-lg-12">
-            <h3 className="display-3 text-light  d-flex justify-content-center">
+          <div className="col-lg-12 mt-5">
+            <h3 className="display-3 text-light d-flex justify-content-center">
               <strong>
                 my.<span className="text-code ">Projects( )</span>
               </strong>
