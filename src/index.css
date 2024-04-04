@@ -105,7 +105,7 @@ html {
 }
 
 .logo {
-  width: 50px;
+  width: 30px;
 }
 
 /* Hero Banner */
@@ -229,9 +229,9 @@ p {
 
 #profile {
   border-radius: 25px;
-  width: 350px;
-  height: 350px;
-  margin: 90px 0px 90px 50px;
+  width: 400px;
+  height: 400px;
+  margin: 130px 0px 90px 50px;
   background-color: black;
 }
 
@@ -248,7 +248,7 @@ p {
 }
 
 .skills-section {
-  margin: 70px 0px 0px 0px !important;
+  margin: 20px 0px 0px 0px !important;
 }
 
 .higlight {
@@ -323,7 +323,21 @@ p {
 .project-section {
   height: auto;
   width: 100vw;
-  background-color: #121212;
+  background-color: #101010;
   color: black;
   padding: 0px 0px 0px 0px;
+}
+
+/* Footer */
+.footer {
+  color: white;
+  background-color: #121212;
+  height: 50vh;
+  width: 100vw;
+}
+
+.social-icon {
+  filter: invert(100%);
+  width: 30px;
+  margin: 0px 20px 0px 0px;
 }
