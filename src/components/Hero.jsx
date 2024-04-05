@@ -6,10 +6,10 @@ import Resume from "../files/Bomediano_Resume.pdf";
 const Hero = () => {
   return (
     <section className="hero-section">
-      <div className="container">
+      <div className="container-fluid">
         <div className="d-none d-sm-block">
           <div className="overlay"></div>
-          <div className="hero-image col-lg-12 d-flex justify-content-end">
+          <div className="hero-image col-lg-12 col-xl-12 d-flex justify-content-end">
             <video src={HeroBanner} autoPlay loop muted />
           </div>
 
