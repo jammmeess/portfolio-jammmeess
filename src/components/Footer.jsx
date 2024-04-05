@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <section className="footer">
       <div className="container">
-        <div className="row mt-5 mb-5">
+        <div className="row pt-5 ">
           <div className="col-lg-5">
             <h3 className="display-2">
               <strong>
