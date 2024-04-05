@@ -2,94 +2,72 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <section id="experience">
-      <div className="container-fluid d-none d-sm-block text-dark experience-section">
-        <div className="row ">
-          <div className="col-lg-5 pb-5 experiencetitle-section">
-            <h3 className="ps-5 pt-5 mt-5  text-light display-4">
-              <strong>
-                work.<span className="text-code">experiences( )</span>
-              </strong>
-            </h3>
-            <p className="text-secondary ps-5">my previous work experiences_</p>
-          </div>
-          <div className="col-lg-6 work-section">
-            <div className="col-lg-12 pb-3 text-light">
-              <h4 className="pb-2">
-                <strong className="text-code">.decastro-consulting ( </strong>
-              </h4>
-              <h5>Web Developer Intern;</h5>
-              <p>January 2024 - April 2024; </p>
-              <span>
-                <strong className="text-code">)</strong>
-              </span>
+    <section className="experience-section" id="experience">
+      <div className="padding-height">
+        <div className="container d-none d-sm-block text-dark  ">
+          <div className="row">
+            <div className="col-lg-6"></div>
+            <div className="col-lg-6 mb-3 work-section">
+              <h3 className="text-code">.DeCastro-Consulting( </h3>
+              <h4 className="text-light">Web Developer Intern;</h4>
+              <h4 className="text-light">January 2024- Present;</h4>
+              <h3 className="text-code">)</h3>
             </div>
-            <div className="col-lg-12 pb-3 text-light">
-              <h4 className="pb-2">
-                <strong className="text-code">.costa-cruises ( </strong>
-              </h4>
-              <h5>Demi Chef De Partie;</h5>
-              <p>March 2018 - March 2023; </p>
-              <span>
-                <strong className="text-code">)</strong>
-              </span>
+            <div className="col-lg-6 pt-5">
+              <h3 className="text-light display-5">
+                work.<span className="text-code">Experiences ( )</span>
+              </h3>
+              <p className="text-secondary"> My Previous Work Experiences_</p>
             </div>
-            <div className="col-lg-12 pb-3 text-light">
-              <h4 className="pb-2">
-                <strong className="text-code">.ibizabeachclub-bgc ( </strong>
-              </h4>
-              <h5>Commis Chef;</h5>
-              <p>February 2017 - October 2017 ; </p>
-              <span>
-                <strong className="text-code">)</strong>
-              </span>
+            <div className="col-lg-6 mb-3 work-section">
+              <h3 className="text-code">.Costa-Cruises( </h3>
+              <h4 className="text-light">Demi Chef De Partie;</h4>
+              <h4 className="text-light">March 2018- March 2023;</h4>
+              <h3 className="text-code">)</h3>
+            </div>
+            <div className="col-lg-6"></div>
+            <div className="col-lg-6 mb-3 work-section">
+              <h3 className="text-code">.IbizaBeach-Club( </h3>
+              <h4 className="text-light">Commis Chef;</h4>
+              <h4 className="text-light">February 2017 - October 2017;</h4>
+              <h3 className="text-code">)</h3>
             </div>
           </div>
         </div>
       </div>
+
       {/* Phone Responsive */}
 
-      <div className="container-fluid d-block d-sm-none text-dark experiencemobile-section">
-        <div className="col-12 col-sm-12 ps-2 experiencetitlemobile-section">
-          <h3 className="text-light display-5 ps-3">
-            <strong>
-              work.<span className="text-code">experience( )</span>
-            </strong>
-          </h3>
-          <p className="text-secondary ps-3 pb-4">
-            my previous work experience_
-          </p>
-        </div>
-        <div className="col-12 workmobile-section">
-          <div className="col-12 pb-4 text-light">
-            <h4 className="pb-2">
-              <strong className="text-code">.decastro-consulting ( </strong>
-            </h4>
-            <h5>Web Developer Intern;</h5>
-            <p>January 2024 - April 2024; </p>
-            <span>
-              <strong className="text-code">)</strong>
-            </span>
+      <div className="container d-block d-sm-none text-dark experiencemobile-section">
+        <div className="row">
+          <div className="col-lg-6 my-2">
+            <h3 className="text-light mt-5 display-3 d-flex justify-content-center">
+              <b>
+                work.<span className="text-code">Experiences ( )</span>
+              </b>
+            </h3>
+            <p className="text-secondary d-flex justify-content-center">
+              {" "}
+              My Previous Work Experiences_
+            </p>
           </div>
-          <div className="col-12 pb-4 text-light">
-            <h4 className="pb-2">
-              <strong className="text-code">.costa-cruises ( </strong>
-            </h4>
-            <h5>Demi Chef De Partie;</h5>
-            <p>March 2018 - March 2023; </p>
-            <span>
-              <strong className="text-code">)</strong>
-            </span>
+          <div className="col-lg-6 ms-5 work-section">
+            <h3 className="text-code">.DeCastro-Consulting( </h3>
+            <h5 className="text-light">Web Developer Intern;</h5>
+            <h5 className="text-light">January 2024- Present;</h5>
+            <h3 className="text-code">)</h3>
           </div>
-          <div className="col-12 text-light">
-            <h4 className="pb-2">
-              <strong className="text-code">.ibizabeachclub-bgc ( </strong>
-            </h4>
-            <h5>Commis Chef;</h5>
-            <p>February 2017 - October 2017 ; </p>
-            <span>
-              <strong className="text-code">)</strong>
-            </span>
+          <div className="col-lg-6  ms-5  work-section">
+            <h3 className="text-code">.Costa-Cruises( </h3>
+            <h5 className="text-light">Demi Chef De Partie;</h5>
+            <h5 className="text-light">March 2018- March 2023;</h5>
+            <h3 className="text-code">)</h3>
+          </div>
+          <div className="col-lg-6 ms-5  work-section">
+            <h3 className="text-code">.IbizaBeach-Club( </h3>
+            <h5 className="text-light">Commis Chef;</h5>
+            <h5 className="text-light">February 2017 - October 2017;</h5>
+            <h3 className="text-code">)</h3>
           </div>
         </div>
       </div>
