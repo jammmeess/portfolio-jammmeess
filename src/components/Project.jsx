@@ -52,7 +52,7 @@ const projectsData = [
 const Projects = () => {
   return (
     <section className="project-section" id="projects">
-      <div className="container project py-5">
+      <div className="container  project py-5">
         <div className="row">
           <div className="col-lg-12 mt-5">
             <h3 className="display-3 text-light d-flex justify-content-center">
