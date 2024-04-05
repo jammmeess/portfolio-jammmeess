@@ -13,9 +13,9 @@ html {
   overflow-x: hidden;
 }
 
-.padding-height {
+/* .padding-height {
   padding: 120px 0px 120px 0px;
-}
+} */
 
 .text-code {
   color: #6311c8;
@@ -254,10 +254,6 @@ p {
   margin-left: 10px;
 }
 
-.skills-section {
-  margin: 20px 0px 0px 0px !important;
-  
-}
 
 .higlight {
   background-color: yellow;

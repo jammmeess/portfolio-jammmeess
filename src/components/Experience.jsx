@@ -4,8 +4,8 @@ const Experience = () => {
   return (
     <section className="experience-section" id="experience">
       <div className="padding-height">
-        <div className="container d-none d-sm-block text-dark  ">
-          <div className="row">
+        <div className="container d-none d-sm-block text-dark pt-5 ">
+          <div className="row pt-5">
             <div className="col-lg-6"></div>
             <div className="col-lg-6 mb-3 work-section">
               <h3 className="text-code">.DeCastro-Consulting( </h3>

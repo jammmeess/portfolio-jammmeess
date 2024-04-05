@@ -7,8 +7,8 @@ const About = () => {
       <div className="about-bg d-none d-sm-block">
         <div className="container  ">
           <div className="padding-height">
-            <div className="container text-justify d-flex justify-content-center">
-              <div className="col-lg-5 col-xl-4 me-5  d-flex justify-content-center">
+            <div className="container text-justify d-flex justify-content-center pt-5">
+              <div className="col-lg-5 col-xl-4 me-5 d-flex justify-content-center">
                 <img
                   src={ProfilePicture}
                   alt="A photo of me"
@@ -46,7 +46,7 @@ const About = () => {
                   solutions to my work, keeping things exciting and effective.
                 </p>
 
-                <div className="col-lg-12 py-5 mt-3 ">
+                <div className="col-lg-12 mt-5 ">
                   <h3>
                     <b className="text-dark">Skills:</b>
                   </h3>
