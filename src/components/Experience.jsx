@@ -49,19 +49,19 @@ const Experience = () => {
               My Previous Work Experiences_
             </p>
           </div>
-          <div className="col-lg-6 ms-5 work-section">
+          <div className="col-lg-6 workmobile-section">
             <h3 className="text-code">.DeCastro-Consulting( </h3>
             <h5 className="text-light">Web Developer Intern;</h5>
             <h5 className="text-light">January 2024- Present;</h5>
             <h3 className="text-code">)</h3>
           </div>
-          <div className="col-lg-6  ms-5  work-section">
+          <div className="col-lg-6   workmobile-section">
             <h3 className="text-code">.Costa-Cruises( </h3>
             <h5 className="text-light">Demi Chef De Partie;</h5>
             <h5 className="text-light">March 2018- March 2023;</h5>
             <h3 className="text-code">)</h3>
           </div>
-          <div className="col-lg-6 ms-5  work-section">
+          <div className="col-lg-6  workmobile-section mb-5">
             <h3 className="text-code">.IbizaBeach-Club( </h3>
             <h5 className="text-light">Commis Chef;</h5>
             <h5 className="text-light">February 2017 - October 2017;</h5>
