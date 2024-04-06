@@ -34,7 +34,7 @@ const About = () => {
                 }}
               />
             </div>
-            <div className="col-lg-7 ms-2 text-light py-5 my-5">
+            <div className="col-lg-7 ms-2 text-light py-5 mt-5">
               <span className="display-5">
                 <p>
                   <strong>
@@ -59,13 +59,9 @@ const About = () => {
                 industry trends. This helps me bring fresh and innovative
                 solutions to my work, keeping things exciting and effective.
               </p>
-
-              <div className="col-lg-12 py-5 mt-3 ">
-              </div>
             </div>
           </div>
           </div>
-         
         </div>
       </div>
 
