@@ -14,7 +14,7 @@ html {
 }
 
 .padding-height {
-  padding: 70px 0px 120px 0px;
+  padding:120px 0px 120px 0px;
 }
 
 .text-code {
@@ -166,7 +166,7 @@ html {
 .hero-textLarge {
   text-align: left;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 30%;
   transform: translate(-50%, -50%);
   color: white;
