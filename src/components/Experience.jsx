@@ -3,7 +3,7 @@ import React from "react";
 const Experience = () => {
   return (
     <section className="experience-section" id="experience">
-      <div className="container d-none d-sm-block  d-xl-none text-dark  ">
+      <div className="container d-none d-sm-block  d-xl-none text-dark experience-laptop">
         <div className="row">
           <div className="col-lg-6"></div>
           <div className="col-lg-6 mb-3 work-section">
