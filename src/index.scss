@@ -18,15 +18,15 @@ body {
 
 @media only screen and (max-width: 768px) {
   body {
-    font-size: 14px; /* Decrease font size for smaller screens */
+    font-size: 14px;
   }
 }
 
-/* Define responsive layout for smaller screens */
+
 @media only screen and (max-width: 768px) {
   .container {
-    width: 100%; /* Full width container for smaller screens */
-    padding: 10px; /* Reduce padding for smaller screens */
+    width: 100%; 
+    padding: 10px; 
   }
 }
 
