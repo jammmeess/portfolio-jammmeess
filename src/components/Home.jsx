@@ -7,7 +7,7 @@ import Experience from "./Experience";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Projects from "./Project";
-import '../index.css';
+import Skills from "./Skills";
 
 const Home = () => {
   return (
@@ -18,6 +18,7 @@ const Home = () => {
       <main>
         <Hero />
         <About />
+        <Skills />
         <Experience />
         <Projects />
         <Contact />
