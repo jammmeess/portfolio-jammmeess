@@ -1,6 +1,6 @@
 import React from "react";
 import HeroBanner from "../img/HeroVideo.mp4";
-import HeroMobile from "../img/HeroMobile.mp4";
+import HeroMobile from "../img/HeroMobile.jpg";
 import Resume from "../files/Bomediano_Resume.pdf";
 
 const Hero = () => {
@@ -48,7 +48,7 @@ const Hero = () => {
       <div className="d-block d-sm-none">
         <div className="row">
           <div className="hero-mobilebanner">
-            <video src={HeroMobile} autoplay loop muted className="img-fluid" />
+            <image src={HeroMobile} className="hero-mobilebanner img-fluid" />
           </div>
           <div className="hero-mobiletext ms-3 pe-5">
             <h1 className="fw-bolder hero-mobile display-1 text-dark">
