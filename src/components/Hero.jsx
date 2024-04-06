@@ -8,38 +8,39 @@ const Hero = () => {
     <section className="hero-section">
       <div className="d-none d-sm-block">
         <div className="overlay"></div>
-        <div className="col-lg-12 col-xl-12 d-flex justify-content-end">
+        <div className="col-lg-12 col-xl-12 ">
           <video
             src={HeroBanner}
             autoPlay
             loop
             muted
-            className="hero-image img-fluid"
+            className="hero-image"
           />
         </div>
-
         <div className="container">
-          <div className="hero-textLarge text-start d-none d-xl-block">
-            <h1 className="fw-bolder display-1 hero-title text-dark">
-              Hello World, I am a
-            </h1>
-            <h1 className="fw-bolder display-1 hero-title mb-5">
-              <span className="highlight">Web Developer</span>
-            </h1>
-            <button type="button" className="button">
-              Download my Resume
-            </button>
-          </div>
-          <div className="hero-text text-start d-block d-xl-none">
-            <h1 className="fw-bolder display-1 hero-title text-dark">
-              Hello World, I am a
-            </h1>
-            <h1 className="fw-bolder display-1 hero-title mb-5">
-              <span className="highlight"> Web Developer</span>
-            </h1>
-            <button type="button" className="button">
-              Download my Resume
-            </button>
+          <div className="">
+            <div className="hero-textLarge text-start d-none d-xl-block">
+              <h1 className="fw-bolder display-1 hero-title text-dark">
+                Hello World, I am a
+              </h1>
+              <h1 className="fw-bolder display-1 hero-title mb-5">
+                <span className="highlight">Web Developer</span>
+              </h1>
+              <button type="button" className="button">
+                Download my Resume
+              </button>
+            </div>
+            <div className="hero-text text-start d-block d-xl-none">
+              <h1 className="fw-bolder display-1 hero-title text-dark">
+                Hello World, I am a
+              </h1>
+              <h1 className="fw-bolder display-1 hero-title mb-5">
+                <span className="highlight"> Web Developer</span>
+              </h1>
+              <button type="button" className="button">
+                Download my Resume
+              </button>
+            </div>
           </div>
         </div>
       </div>
