@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container">
         <div className="row pt-5 ">
           <div className="col-lg-5">
-            <h3 className="display-2">
+            <h3 className="display-3">
               <strong>
                 Get.<span className="text-code">InTouch( )</span>
               </strong>
