@@ -80,11 +80,14 @@ const Experience = () => {
             <h4 className="text-light">January 2024- Present;</h4>
             <h3 className="text-code">)</h3>
           </div>
-          <div className="col-lg-6 pt-5">
-            <h3 className="text-light display-5">
+          <div className="col-lg-6 pt-5 ">
+            <h3 className="text-light display-5 d-flex justify-content-end">
               work.<span className="text-code">Experiences ( )</span>
             </h3>
-            <p className="text-secondary"> My Previous Work Experiences_</p>
+            <p className="text-secondary d-flex justify-content-center ms-3">
+              {" "}
+              My Previous Work Experiences_
+            </p>
           </div>
           <div className="col-lg-6 mb-3 work-section">
             <h3 className="text-code">.Costa-Cruises( </h3>
