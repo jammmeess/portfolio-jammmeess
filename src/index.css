@@ -114,6 +114,11 @@ html {
   width: 30px;
 }
 
+.Icon {
+  width: 40px;
+  filter: invert(100%);
+}
+
 /* Hero Banner */
 .overlay {
   background-color: #121212;
@@ -141,16 +146,16 @@ html {
   z-index: 0;
 }
 
-/* .hero-mobilebanner {
-  min-height: auto;
+.hero-mobilebanner {
+  min-height: 100vh;
   min-width: 100vw;
   margin-right: 30px;
-  background-color: #121212;
+  background-image: url("./img/HeroMobile.jpg");
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
   z-index: 0;
-} */
+}
 
 .hero-text {
   text-align: left;
