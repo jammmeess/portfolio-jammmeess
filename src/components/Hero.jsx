@@ -47,7 +47,6 @@ const Hero = () => {
       {/* Phone Responsive */}
       <div className="d-block d-sm-none">
         <div className="row">
-          <div className="overlay-mobile"></div>
           <div className="hero-mobilebanner">
             <video src={HeroMobile} autoplay loop muted className="img-fluid" />
           </div>
