@@ -14,7 +14,7 @@ html {
 }
 
 .padding-height {
-  padding:130px 0px 120px 0px;
+  padding:70px 0px 120px 0px;
 }
 
 .text-code {
@@ -141,7 +141,7 @@ html {
   z-index: 0;
 }
 
-.hero-mobilebanner {
+/* .hero-mobilebanner {
   min-height: auto;
   min-width: 100vw;
   margin-right: 30px;
@@ -150,7 +150,7 @@ html {
   background-repeat: no-repeat;
   position: relative;
   z-index: 0;
-}
+} */
 
 .hero-text {
   text-align: left;
@@ -199,16 +199,14 @@ html {
 }
 /* About Section */
 
-
-
 .about-section {
   color: black;
-  height: 100vh;
+  height: 60vh;
   width: 100vw;
 }
 
 .about-bg{
-  height: 65vh;
+  height: 63vh;
   width: 100vw;
   background-color: #121212;  
   border-radius: 0px 0px 200px 0px;
@@ -217,7 +215,7 @@ html {
 .about-mobile {
   background-color: #121212;
   color: black;
-  height: 25vh;
+  max-height: 30vh;
   width: 100%;
 }
 
@@ -269,6 +267,11 @@ p {
   color: white;
 }
 
+/* Skills Section */
+.skills-section {
+  height: 40vh;
+  width: 100vw;
+}
 /* Experience Section */
 
 .experience-section {
@@ -277,6 +280,7 @@ p {
   min-height: 100vh;
   width: 100%;
   border-radius: 200px 0px 0px 0px;
+
 }
 
 .experience-sectionLarge {
@@ -293,20 +297,18 @@ p {
   color: black;
   min-height: 100vh;
   width: auto;
-  margin: 390px 0px 0px 0px;
+  margin: 400px 0px 0px 0px;
 }
 
 .work-section {
-  border-left: solid rgb(129, 129, 129);
-  padding: 15px 0px 0px 30px;
+  border-left: solid 5px rgb(129, 129, 129);
+  padding: 15px 80px 0px 70px;
 }
 
 .workmobile-section {
   background-color: #121212;
-  min-height: auto;
-  margin: 0px 0px 0px 0px;
-  padding: 0px 80px 0px 80px;
-  border-left: solid rgb(129, 129, 129);
+  margin: 0px 0px 0px 50px;
+  border-left: solid 5px rgb(129, 129, 129);
   padding: 30px 0px 0px 30px;
 }
 

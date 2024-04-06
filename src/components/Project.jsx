@@ -68,7 +68,7 @@ const Projects = () => {
 
         <div className="row mt-5">
           {projectsData.map((project, index) => (
-            <div className="col-lg-6" key={index}>
+            <div className="col-lg-12 mb-2" key={index}>
               <article
                 className={`postcard dark ${index % 2 === 0 ? "red" : "blue"}`}
               >

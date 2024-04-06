@@ -26,6 +26,7 @@ body {
 @media only screen and (max-width: 768px) {
   .container {
     width: 100%; 
+    height: auto;
     padding: 10px; 
   }
 }
@@ -54,7 +55,8 @@ a:hover {
 .postcard {
   flex-wrap: wrap;
   display: flex;
-  width: auto;
+  min-width: 70%;
+  min-height: auto;
   box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
   border-radius: 10px;
   margin: 0 0 2rem 0;
@@ -93,8 +95,8 @@ a:hover {
   }
 
   .postcard__img {
-    max-height: 180px;
-    width: 100%;
+    min-height: 50px;
+    min-width: 50px;
     object-fit: cover;
     position: relative;
   }
@@ -113,7 +115,7 @@ a:hover {
   }
 
   .postcard__text {
-    padding: 1.5rem;
+    padding: 30px;
     position: relative;
     display: flex;
     flex-direction: column;
