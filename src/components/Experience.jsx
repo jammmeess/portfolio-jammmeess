@@ -13,10 +13,10 @@ const Experience = () => {
             <h3 className="text-code">)</h3>
           </div>
           <div className="col-lg-6 pt-5">
-            <h3 className="text-light display-5">
-              work.<span className="text-code">Experiences ( )</span>
+            <h3 className="text-light display-5"><strong>work.<span className="text-code">Experiences ( )</span></strong>
+              
             </h3>
-            <p className="text-secondary"> My Previous Work Experiences_</p>
+            <p className="text-secondary "> My Previous Work Experiences_</p>
           </div>
           <div className="col-lg-6 mb-3 work-section">
             <h3 className="text-code">.Costa-Cruises( </h3>
@@ -61,7 +61,7 @@ const Experience = () => {
             <h5 className="text-light">March 2018- March 2023;</h5>
             <h3 className="text-code">)</h3>
           </div>
-          <div className="col-lg-6  workmobile-section mb-5">
+          <div className="col-lg-6  workmobile-section">
             <h3 className="text-code">.IbizaBeach-Club( </h3>
             <h5 className="text-light">Commis Chef;</h5>
             <h5 className="text-light">February 2017 - October 2017;</h5>
@@ -81,8 +81,8 @@ const Experience = () => {
             <h3 className="text-code">)</h3>
           </div>
           <div className="col-lg-6 pt-5 ">
-            <h3 className="text-light display-5 d-flex justify-content-end">
-              work.<span className="text-code">Experiences ( )</span>
+            <h3 className="text-light display-3 d-flex justify-content-end">
+              <strong>work.<span className="text-code">Experiences ( )</span></strong>
             </h3>
             <p className="text-secondary d-flex justify-content-center ms-3">
               {" "}
