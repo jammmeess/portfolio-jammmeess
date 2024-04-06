@@ -9,13 +9,7 @@ const Hero = () => {
       <div className="d-none d-sm-block">
         <div className="overlay"></div>
         <div className="col-lg-12 col-xl-12 ">
-          <video
-            src={HeroBanner}
-            autoPlay
-            loop
-            muted
-            className="hero-image"
-          />
+          <video src={HeroBanner} autoPlay loop muted className="hero-image" />
         </div>
         <div className="container">
           <div className="">
@@ -26,9 +20,12 @@ const Hero = () => {
               <h1 className="fw-bolder display-1 hero-title mb-5">
                 <span className="highlight">Web Developer</span>
               </h1>
-              <button type="button" className="button">
-                Download my Resume
-              </button>
+              <a href={Resume} download>
+                {" "}
+                <button type="button" className="button">
+                  Download my Resume
+                </button>
+              </a>
             </div>
             <div className="hero-text text-start d-block d-xl-none">
               <h1 className="fw-bolder display-1 hero-title text-dark">
