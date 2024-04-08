@@ -55,15 +55,15 @@ a:hover {
 .postcard {
   flex-wrap: wrap;
   display: flex;
-  min-width: 70%;
-  min-height: auto;
+  width: 100%;
+  height: 90%;
   box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
   border-radius: 10px;
   margin: 0 0 2rem 0;
   overflow: hidden;
   position: relative;
   color: #ffffff;
-
+  
   &.dark {
     background-color: #18151f;
   }
@@ -95,8 +95,8 @@ a:hover {
   }
 
   .postcard__img {
-    min-height: 50px;
-    min-width: 50px;
+    max-height: auto !important;
+    width: 100%;
     object-fit: cover;
     position: relative;
   }
@@ -182,13 +182,13 @@ a:hover {
     }
 
     .postcard__img {
-      max-width: 300px;
-      max-height: 100%;
+      max-width: 50%;
+      max-height: auto;
       transition: transform 0.3s ease;
     }
 
     .postcard__text {
-      padding: 3rem;
+      padding: 30px;
       width: 100%;
     }
 
@@ -198,7 +198,7 @@ a:hover {
       display: block;
       background: #18151f;
       top: -20%;
-      height: 130%;
+      height: 100%;
       width: 55px;
     }
 
@@ -237,7 +237,7 @@ a:hover {
 
     top: -20%;
     height: 130%;
-    width: 55px;
+    width: 24px;
   }
 
   .postcard.dark {
