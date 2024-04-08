@@ -34,9 +34,11 @@ const Hero = () => {
               <h1 className="fw-bolder display-1 hero-title mb-5">
                 <span className="highlight"> Web Developer</span>
               </h1>
-              <button type="button" className="button">
-                Download my Resume
-              </button>
+              <a href={Resume} download>
+                <button type="button" className="button">
+                  Download my Resume
+                </button>
+              </a>
             </div>
           </div>
         </div>
