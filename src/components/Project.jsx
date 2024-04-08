@@ -57,7 +57,10 @@ const Projects = () => {
           <div className="col-lg-12 mt-5">
             <h3 className="display-3 text-light d-flex justify-content-center">
               <strong>
-                my.<span className="text-code ">Projects( )</span>
+                my.
+                <span className="text-code ">
+                  Projects( ) <hr className="divider" />
+                </span>
               </strong>
             </h3>
             <p className="text-secondary d-flex justify-content-center">
@@ -65,10 +68,9 @@ const Projects = () => {
             </p>
           </div>
         </div>
-
         <div className="row mt-5">
           {projectsData.map((project, index) => (
-            <div className="col-lg-12 mb-2" key={index}>
+            <div className="col-lg-6 mb-2" key={index}>
               <article
                 className={`postcard dark ${index % 2 === 0 ? "red" : "blue"}`}
               >
@@ -122,6 +124,7 @@ const Projects = () => {
           ))}
         </div>
       </div>
+        
     </section>
   );
 };
