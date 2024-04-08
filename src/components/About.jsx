@@ -21,46 +21,47 @@ const About = () => {
       <div className="about-bg d-none d-sm-block ">
         <div className="container  ">
           <div className="padding-height">
-             <div className="container text-justify d-flex justify-content-center">
-            <div className="col-lg-5 col-xl-4 me-5  d-flex justify-content-center">
-              <img
-                src={ProfilePicture}
-                alt="A photo of me"
-                className="img-fluid mx-5 px-2"
-                id="profile"
-                style={{
-                  boxShadow: "0px 0px 5px black",
-                  borderRadius: "0px 70px 0px 70px",
-                }}
-              />
-            </div>
-            <div className="col-lg-7 ms-2 text-light py-5 mt-5">
-              <span className="display-5">
-                <p>
-                  <strong>
-                    myName<span className="text-code">.is( )</span>
-                  </strong>
+            <div className="container text-justify d-flex justify-content-center">
+              <div className="col-lg-5 col-xl-4 me-5  d-flex justify-content-center">
+                <img
+                  src={ProfilePicture}
+                  alt="A photo of me"
+                  className="img-fluid mx-5 px-2"
+                  id="profile"
+                  style={{
+                    boxShadow: "0px 0px 5px black",
+                    borderRadius: "0px 70px 0px 70px",
+                  }}
+                />
+              </div>
+              <div className="col-lg-7 ms-2 text-light py-5 mt-5">
+                <span className="display-5">
+                  <p>
+                    <strong>
+                      myName<span className="text-code">.is( ) </span>
+                    </strong>
+                  </p>
+                </span>
+                <p className="display-6 pb-2">
+                  <b>
+                    <i>Kristoffer James Bomediano</i>
+                  </b>
                 </p>
-              </span>
-              <p className="display-6 pb-2">
-                <b>
-                  <i>Kristoffer James Bomediano</i>
-                </b>
-              </p>
-              <p>
-                I am a front-end web developer based on the Philippines. I
-                really enjoy working in web development, especially when it
-                comes to exploring different technologies. I find it easy to
-                manage my own projects and love collaborating with others as
-                part of a team.
-              </p>
-              <p className="text-light ">
-                I'm always eager to learn and stay updated with the latest
-                industry trends. This helps me bring fresh and innovative
-                solutions to my work, keeping things exciting and effective.
-              </p>
+                <hr className="divider" />
+                <p>
+                  I am a front-end web developer based on the Philippines. I
+                  really enjoy working in web development, especially when it
+                  comes to exploring different technologies. I find it easy to
+                  manage my own projects and love collaborating with others as
+                  part of a team.
+                </p>
+                <p className="text-light ">
+                  I'm always eager to learn and stay updated with the latest
+                  industry trends. This helps me bring fresh and innovative
+                  solutions to my work, keeping things exciting and effective.
+                </p>
+              </div>
             </div>
-          </div>
           </div>
         </div>
       </div>
@@ -122,8 +123,6 @@ const About = () => {
           </div>
         </div>
       </div>
-
-
     </section>
   );
 };
