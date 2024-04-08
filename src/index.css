@@ -27,9 +27,17 @@ html {
   padding: 0px 20px 0px 20px
 }
 
+.divider {
+ background-color: #6311c8;
+ border:none;
+ height:5px;
+}
+
+
 .container {
   width: 100vw !important;
 }
+
 
 /* Button */
 
@@ -277,6 +285,7 @@ p {
   height: 40vh;
   width: 100vw;
 }
+
 /* Experience Section */
 
 .experience-section {
@@ -314,14 +323,14 @@ p {
 }
 
 .work-section {
-  border-left: solid 5px rgb(129, 129, 129);
+  border-left: solid 5px #6311c8;;
   padding: 15px 80px 0px 70px;
 }
 
 .workmobile-section {
   background-color: #121212;
   margin: 0px 0px 0px 50px;
-  border-left: solid 5px rgb(129, 129, 129);
+  border-left: solid 5px #6311c8;;
   padding: 30px 0px 0px 30px;
 }
 
@@ -345,7 +354,7 @@ p {
 .project-section {
   min-height: auto;
   width: 100vw;
-  background-color: #101010;
+  background-color: #121212;
   color: black;
   padding: 0px 0px 0px 0px;
 }
@@ -363,3 +372,5 @@ p {
   width: 30px;
   margin: 0px 20px 0px 0px;
 }
+
+
