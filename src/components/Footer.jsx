@@ -2,7 +2,7 @@ import React from "react";
 import LinkedIn from "../img/linkedIn.svg";
 import Email from "../img/email.svg";
 import Github from "../img/github.svg";
-import Resume from "../files/Bomediano_Resume.pdf";
+import Resume from "../files/Resume__Bomediano.pdf";
 import RightArrow from "../img/right_arrow.svg";
 
 const Footer = () => {
