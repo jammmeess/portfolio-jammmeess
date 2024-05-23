@@ -13,6 +13,10 @@ const skills = [
   "Git",
   "Figma",
   "Photoshop",
+  "PugJs",
+  "Prepros",
+  "BitBucket",
+
 ];
 
 const About = () => {
