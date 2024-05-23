@@ -16,7 +16,6 @@ const skills = [
   "PugJs",
   "Prepros",
   "BitBucket",
-
 ];
 
 const About = () => {
@@ -111,7 +110,7 @@ const About = () => {
               solutions to my work, keeping things exciting and effective.
             </p>
 
-            <div className="col-12 col-sm-12 mt-5">
+            <div className="col-12 col-sm-12 mt-5 mb-5">
               <h3>
                 <b>Skills:</b>
               </h3>
