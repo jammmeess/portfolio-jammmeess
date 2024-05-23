@@ -16,6 +16,7 @@ const skills = [
   "PugJs",
   "Prepros",
   "BitBucket",
+  "SASS",
 ];
 
 const About = () => {

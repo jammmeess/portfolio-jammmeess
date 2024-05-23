@@ -15,6 +15,7 @@ const skills = [
   "PugJs",
   "Prepros",
   "BitBucket",
+  "SCSS",
 ];
 
 const Skills = () => {
