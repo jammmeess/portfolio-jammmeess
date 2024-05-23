@@ -42,7 +42,7 @@ const About = () => {
                 <span className="display-5">
                   <p>
                     <strong>
-                      myName<span className="text-code">.is( ) </span>
+                      __myName<span className="text-code">.is( ) </span>
                     </strong>
                   </p>
                 </span>
@@ -111,9 +111,9 @@ const About = () => {
               solutions to my work, keeping things exciting and effective.
             </p>
 
-            <div className="col-12 col-sm-12 mt-5 mb-5">
+            <div className="col-12 col-sm-12">
               <h3>
-                <b>Skills:</b>
+                <b>__mySkills.</b>
               </h3>
               {skills.map((skill, index) => (
                 <buttom
