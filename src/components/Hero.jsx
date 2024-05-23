@@ -1,7 +1,7 @@
 import React from "react";
 import HeroBanner from "../img/HeroVideo.mp4";
 import HeroMobile from "../img/HeroMobile.jpg";
-import Resume from "../files/Bomediano_Resume.pdf";
+import Resume from "../files/Resume__Bomediano.pdf";
 
 const Hero = () => {
   return (
