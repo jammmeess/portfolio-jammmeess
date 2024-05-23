@@ -12,6 +12,9 @@ const skills = [
   "Git",
   "Figma",
   "Photoshop",
+  "PugJs",
+  "Prepros",
+  "BitBucket",
 ];
 
 const Skills = () => {
@@ -55,7 +58,6 @@ const Skills = () => {
           </div>
         </div>
       </div>
-
     </section>
   );
 };
